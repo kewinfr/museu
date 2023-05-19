@@ -1,0 +1,33 @@
+header{
+    background-color: var(--header);
+    padding: 1em     0 8em 0;
+   
+    
+}
+
+.header__titulo{
+color: var(--white);
+}
+
+.header__titulo span{
+color: var(--emphasis);
+}
+
+.header__nav{
+    display: flex;
+    gap: 20px;
+}
+.link{
+    text-transform: uppercase;
+    color: var(--emphasis);
+    border-bottom: 3px solid #00000000;
+}
+.link__atual{
+    text-transform: uppercase;
+    text-shadow: 0 0 2px #FFF ;
+    transition: 0.5s;
+    color: var(--white);
+    
+    border-bottom: 3px solid #fff;
+
+}
