@@ -1,0 +1,41 @@
+.video_1{
+ --video:400px;
+ width: var(--video);
+ height: calc(var(--video)/2);
+}
+.Videos_grid{
+    display: grid;
+    grid-template : 
+      "v1 v2"
+      "v3 v4"
+      ;
+    text-align: center;
+    grid-gap: 19px;
+    width: 85%;
+    margin: 0 auto;
+   
+}
+
+
+.video:nth-child(1){
+    grid-area: v1;
+}
+.video:nth-child(2){
+    grid-area: v2;
+}
+.video:nth-child(3){
+    grid-area: v3;
+}
+
+.video:nth-child(4){
+grid-area: v4;
+}
+.{
+    grid-area: t1;
+}
+.footer_video{
+    display: flex;
+    justify-content: center;
+    background-color:var(--header);
+    padding: 24px 0px;
+}

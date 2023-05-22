@@ -1,0 +1,35 @@
+.Exposicao__grid{
+  display: grid;
+  grid-template:
+   "t1 t1 "
+   "E1 E2"
+   "E3 E4"
+  ;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    grid-gap: 19px;
+
+
+}
+.grid_texto {
+    grid-area: t1;
+    padding: 15px;
+}
+
+.titulo__exposicao{
+    text-align: center;
+
+}
+.secoes:nth-child(1){
+    grid-area:E1 ;
+}
+.secoes:nth-child(2){
+    grid-area: E2;
+}
+.secoes:nth-child(3){
+    grid-area:E3 ;
+}
+.secoes:nth-child(4){
+    grid-area: E4;
+}
